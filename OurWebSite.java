@@ -218,6 +218,7 @@ public class OurWebSite {
 		String ActualResult=driver.findElement(By.xpath(".//*[@id='field2']")).getAttribute("value");
 		Assert.assertEquals(ActualResult, "Hello World!");
 		Thread.sleep(3000);
+		System.out.println("All Tests passed");
 		
 		
 	}
